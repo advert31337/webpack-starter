@@ -1,8 +1,19 @@
-$body-color: slateblue;
+// Сброс базовых стилей
+@import './common/normalize.css';
 
+// Все цвета сайта
 @import './colors.scss';
+// Шрифты для сайта
+@import './fonts/fonts.scss';
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
-}
+// Базовые стили
+@import './common/base.scss';
+
+// MENU
+@import './header/menu.scss';
+
+// HEADER
+@import './header/header.scss';
+
+// BUTTONS
+@import './buttons/buttons.scss';
