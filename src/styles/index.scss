@@ -1,0 +1,8 @@
+$body-color: slateblue;
+
+@import './colors.scss';
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+}
