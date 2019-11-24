@@ -1,19 +1,7 @@
-// Сброс базовых стилей
-@import './common/normalize.css';
+$primary: #555;
+$accent: #c0301c;
 
-// Все цвета сайта
-@import './colors.scss';
-// Шрифты для сайта
-@import './fonts/fonts.scss';
-
-// Базовые стили
-@import './common/base.scss';
-
-// MENU
-@import './header/menu.scss';
-
-// HEADER
-@import './header/header.scss';
-
-// BUTTONS
-@import './buttons/buttons.scss';
+body {
+  color: $primary;
+  font: 14px/1.42em 'Roboto Slab', serif;
+}
