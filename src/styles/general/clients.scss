@@ -1,0 +1,42 @@
+.clients {
+  max-height: 470px;
+  height: 100%;
+  background: #f8f8f8;
+  padding: 100px 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: stretch;
+  }
+
+  &__pic {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 75px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__context {
+    text-align: center;
+  }
+
+  &__item {
+    opacity: 0.5;
+    transition: 0.3s all;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
