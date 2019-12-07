@@ -1,0 +1,218 @@
+.contacts {
+  padding: 100px 0;
+
+  &__wrap {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;
+
+
+  }
+
+  &__adress {
+    width: 25%;
+    min-width: 350px;
+  }
+
+  &__form {
+    width: 65%;
+    min-width: 350px;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__icons {
+    padding-right: 15px;
+
+  }
+
+  &__ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__li {
+    margin-bottom: 35px;
+  }
+
+  &__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: 15px;
+  }
+
+  &__subtitle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+
+  &-form {
+    &__row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__inputs {
+      width: 47%;
+    }
+
+    &__input {
+      border: 1px solid #000;
+      outline: none;
+      font-size: 12px;
+      text-transform: uppercase;
+      padding: 17px;
+      margin-bottom: 20px;
+      transition: .2s all;
+      min-width: 320px;
+
+      &:focus {
+        border: 1px solid $accent;
+      }
+
+      &::-webkit-input-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &::-moz-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &:-moz-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &:-ms-input-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus::-webkit-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus::-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus:-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus:-ms-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+
+    }
+
+    &__texts {
+      width: 100%;
+    }
+
+    &__textarea {
+      margin-bottom: 20px;
+      width: 96%;
+      outline: none;
+      border: 1px solid #000;
+      font-size: 12px;
+      text-transform: uppercase;
+      padding: 17px;
+
+      &:focus {
+        border: 1px solid $accent;
+      }
+
+      &::-webkit-input-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &::-moz-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &:-moz-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &:-ms-input-placeholder {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus::-webkit-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus::-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus:-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:focus:-ms-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+    }
+
+    &__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    &__sup {
+      color: $accent;
+    }
+
+    &__btn {
+      margin-right: 40px;
+      text-align: center;
+      padding: 17px 35px;
+      background: transparent;
+      transition: .3s all;
+      text-transform: uppercase;
+      font-size: 12px;
+      outline: none;
+
+      &:hover {
+        background: $accent;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+
+    &__text {}
+
+
+  }
+}
