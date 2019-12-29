@@ -1,5 +1,6 @@
-$primary: #555;
-$accent: #c0301c;
+// Сброс базовых стилей
+@import './common/normalize.css';
+@import './colors.scss';
 
 body {
   color: $primary;
