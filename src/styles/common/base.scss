@@ -20,22 +20,7 @@ p {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1175px;
   width: 100%;
   margin: 0 auto;
-}
-
-.overlay {
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(#000, .8);
-}
-
-img {
-  margin: 0;
-  padding: 0;
 }
