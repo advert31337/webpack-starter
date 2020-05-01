@@ -1,8 +1,6 @@
 // Сброс базовых стилей
 @import './common/normalize.css';
+@import './lib';
 @import './colors.scss';
+@import './common/base.scss';
 
-body {
-  color: $primary;
-  font: 14px/1.42em 'Roboto Slab', serif;
-}
